@@ -1,0 +1,52 @@
+.game-background {
+  background-image: url("../../assets/background.jpg");
+  width: 100vw;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  place-items: center;
+}
+
+.board-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 17.5186px 43.7965px;
+  width: 706px;
+  height: fit-content;
+  padding: 39px 46px;
+
+  background: #ffffff;
+  border-radius: 17.5186px;
+}
+
+.board-desc {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* .board-desc span {
+  max-width: fit-content;
+} */
+
+.game-board {
+  display: grid;
+  /* grid-template-rows: ; */
+}
+
+.game-con {
+  margin: 39px auto;
+  border: 3px solid #853594;
+}
+
+.cell {
+  width: 50px;
+  height: 50px;
+  border: 1.25px solid #853594;
+  display: grid;
+  place-items: center;
+}

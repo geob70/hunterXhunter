@@ -1,0 +1,48 @@
+img {
+  position: absolute;
+  top: 0;
+  left: 10px;
+  align-self: center;
+}
+
+.life-div {
+  /* display: grid;
+  place-items: center; */
+  position: relative;
+  width: 200px;
+  height: 50px;
+}
+
+.bar {
+  transform: scaleX(1);
+}
+
+.heart {
+  top: -11px;
+  left: -3px;
+}
+
+.health {
+  position: relative;
+  margin: 0;
+}
+.bar-container {
+  width: 162.79px;
+  height: 18.04px;
+
+  background: linear-gradient(180deg, #853594 47.39%, #692789 47.4%);
+  border: 2.15507px solid #532461;
+  box-sizing: border-box;
+  border-radius: 12.661px;
+  padding: 0;
+}
+.health-bar {
+  width: 158px;
+  height: 15.77px;
+
+  background: linear-gradient(180deg, #f07cc3 44.27%, #c5418e 44.28%);
+  border: 1.87639px solid #fffffd;
+  box-sizing: border-box;
+  border-radius: 11.0238px;
+  transition: .2s ease-in-out;
+}

@@ -1,0 +1,133 @@
+<template>
+  <div class="side-box">
+    <img draggable="false"
+      src="~/assets/circle.png"
+      width="120px"
+      height="120px"
+      alt=""
+      srcset=""
+    />
+    <img draggable="false"
+      src="~/assets/circle.png"
+      width="120px"
+      height="120px"
+      alt=""
+      srcset=""
+    />
+    <img draggable="false"
+      src="~/assets/circle.png"
+      width="120px"
+      height="120px"
+      alt=""
+      srcset=""
+    />
+    <img draggable="false"
+      src="~/assets/circle.png"
+      width="120px"
+      height="120px"
+      alt=""
+      srcset=""
+    />
+    <img draggable="false"
+      src="~/assets/circle.png"
+      width="120px"
+      height="120px"
+      alt=""
+      srcset=""
+    />
+    <img draggable="false"
+      src="~/assets/circle.png"
+      width="120px"
+      height="120px"
+      alt=""
+      srcset=""
+    />
+    <img draggable="false"
+      src="~/assets/circle.png"
+      width="120px"
+      height="120px"
+      alt=""
+      srcset=""
+    />
+    <img draggable="false"
+      src="~/assets/circle.png"
+      width="120px"
+      height="120px"
+      alt=""
+      srcset=""
+    />
+    <img draggable="false"
+      src="~/assets/circle.png"
+      width="120px"
+      height="120px"
+      alt=""
+      srcset=""
+    />
+    <img draggable="false"
+      src="~/assets/circle.png"
+      width="120px"
+      height="120px"
+      alt=""
+      srcset=""
+    />
+    <img draggable="false"
+      src="~/assets/circle.png"
+      width="120px"
+      height="120px"
+      alt=""
+      srcset=""
+    />
+    <img draggable="false"
+      src="~/assets/circle.png"
+      width="120px"
+      height="120px"
+      alt=""
+      srcset=""
+    />
+    <img draggable="false"
+      src="~/assets/circle.png"
+      width="120px"
+      height="120px"
+      alt=""
+      srcset=""
+    />
+    <img draggable="false"
+      src="~/assets/circle.png"
+      width="120px"
+      height="120px"
+      alt=""
+      srcset=""
+    />
+    <img draggable="false"
+      src="~/assets/circle.png"
+      width="120px"
+      height="120px"
+      alt=""
+      srcset=""
+    />
+    <img draggable="false"
+      src="~/assets/circle.png"
+      width="120px"
+      height="120px"
+      alt=""
+      srcset=""
+    />
+    <img draggable="false"
+      src="~/assets/circle.png"
+      width="120px"
+      height="120px"
+      alt=""
+      srcset=""
+    />
+    <img draggable="false"
+      src="~/assets/circle.png"
+      width="120px"
+      height="120px"
+      alt=""
+      srcset=""
+    />
+  </div>
+</template>
+<style lang="scss" scoped>
+@import "./side.scss";
+</style>

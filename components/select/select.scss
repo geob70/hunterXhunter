@@ -1,0 +1,22 @@
+select {
+  width: 161px;
+  height: 67px;
+  left: 208px;
+  top: 0px;
+  /* padding: 10px 10px; */
+
+  border: 4px solid #ee8d94;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+select option {
+  background: #43144a;
+}

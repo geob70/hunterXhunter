@@ -1,0 +1,53 @@
+.input-div {
+  position: relative;
+}
+
+input {
+  width: 161px;
+  height: 67px;
+  padding: 12px 10px;
+
+  border: 4px solid #ee8d94;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+input:focus {
+  outline: none;
+}
+
+input::-webkit-inner-spin-button {
+  opacity: 0;
+}
+
+.up {
+  position: absolute;
+  top: 18px;
+  right: 18px;
+  cursor: pointer;
+  transition: .1s ease-in-out;
+}
+
+.up:hover {
+  transform: scale(1.5);
+}
+
+.down {
+  position: absolute;
+  bottom: 18px;
+  right: 18px;
+  transform: rotate(180deg);
+  cursor: pointer;
+  transition: .1s ease-in-out;
+}
+.down:hover {
+  transform: scale(1.5) rotate(180deg);
+}

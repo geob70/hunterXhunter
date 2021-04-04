@@ -1,0 +1,42 @@
+.div-container {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  /* display: grid;
+    place-items: center; */
+  background: $themeColor;
+  padding: 123px 46px;
+}
+.top {
+  display: grid;
+  place-items: center;
+}
+.set-up {
+  margin-top: 54px;
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 30px;
+  position: relative;
+}
+#game {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+  /* identical to box height */
+
+  color: #ee8d94;
+  place-self: center;
+}
+
+.left {
+  position: absolute;
+  left: 46px;
+  top: 109px;
+}
+
+.right {
+  position: absolute;
+  right: 46px;
+  top: 109px;
+}
