@@ -123,7 +123,7 @@ export default Vue.extend({
       grid: number
     ): void { // a recursive function that places food at random positions
       if (food == 0) {
-        this.placeHunter(arr, grid);
+        this.placeHunter(arr, grid); // place player on board 
         return;
       }
       let min = 0;
@@ -133,24 +133,24 @@ export default Vue.extend({
 
 
       // converts the 1D array to 2D
-      // 
-      this.board[Math.trunc(arr[random] / grid)][arr[random] % grid].setFood();
+      
+      this.board[Math.trunc(arr[random] / grid)][arr[random] % grid].setFood(); // set random index to food
       this.board[Math.trunc(arr[random] / grid)][arr[random] % grid].setEmpty(
         false
-      );
+      ); // set random index to not empty (it now holds a food)
 
       let temp = new Array(...arr);
 
-      let top = arr.splice(min, random);
-      let bottom = temp.splice(random + 1, max);
+      let top = arr.splice(min, random); // splice array from index 0 to random (random excluded)
+      let bottom = temp.splice(random + 1, max); // splice array from index random + 1 to array length
 
-      let newArr = [...top, ...bottom];
-      food--;
+      let newArr = [...top, ...bottom]; // merge both arrays together (N.B: new array would not contain the index of the previously set food i.e random index)
+      food--; // reduce number of food as we have already placed a food on the grid
 
-      this.generateFood(newArr, food, grid);
+      this.generateFood(newArr, food, grid); // recursive function call
     },
     placeHunter: function(arr: Array<number>, grid: number): void {
-      let min = 0;
+      // let min = 0;
       let max = arr.length;
 
       let random = Math.floor(Math.random() * max);
@@ -160,7 +160,7 @@ export default Vue.extend({
 
       this.board[Math.trunc(arr[random] / grid)][
         arr[random] % grid
-      ].setHunter();
+      ].setHunter(); // set hunter position
       this.board[Math.trunc(arr[random] / grid)][arr[random] % grid].setEmpty(
         false
       );
